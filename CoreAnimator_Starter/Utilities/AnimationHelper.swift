@@ -2,7 +2,7 @@
 //  AnimationHelper.swift
 //  CoreAnimator
 //
-//  Created by Mitya Kim on 9/13/22.
+//  Created by Mitya Kim on 10/12/22.
 //
 
 import UIKit
@@ -11,6 +11,17 @@ class AnimationHelper {
     
     // MARK: Animatable Properties
     static var opacity = "opacity"
+    static var posY = "position.y"
+    static var borderColor = "borderColor"
+    static var scale = "transform.scale"
+    static var position = "position"
+    static var rotation = "transform.rotation"
+    static var gradientColors = "colors"
+    static var dashPhase = "lineDashPhase"
+    static var shapePath = "path"
+    static var textColor = "foregroundColor"
+    static var gradientLocations = "locations"
+    
     
     // MARK: Common Animations
     static func basicFadeAnimation() -> CABasicAnimation {
@@ -18,6 +29,7 @@ class AnimationHelper {
         fadeIn.fromValue = 0.0
         fadeIn.toValue = 1.0
         fadeIn.duration = 1.0
+        fadeIn.fillMode = CAMediaTimingFillMode.backwards
         
         return fadeIn
     }
@@ -25,6 +37,10 @@ class AnimationHelper {
     // MARK: Utilities
     static var screenBounds: CGRect {
         return UIScreen.main.bounds
+    }
+    
+    static func addDelay(time: Double) -> CFTimeInterval {
+        return CACurrentMediaTime() + time
     }
     
     // MARK: Shapes

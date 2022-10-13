@@ -19,6 +19,7 @@
 		36CE7DB120C7203B004137AC /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE7DB020C7203B004137AC /* LoadingViewController.swift */; };
 		36D1768720D15058000A7F27 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1768620D15058000A7F27 /* DashboardViewController.swift */; };
 		36D1768920D151CB000A7F27 /* PartyTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1768820D151CB000A7F27 /* PartyTimeViewController.swift */; };
+		3B8EAC1828F7E7E7001BA2D2 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8EAC1728F7E7E7001BA2D2 /* Actions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		36CE7DB020C7203B004137AC /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		36D1768620D15058000A7F27 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		36D1768820D151CB000A7F27 /* PartyTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTimeViewController.swift; sourceTree = "<group>"; };
+		3B8EAC1728F7E7E7001BA2D2 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				3665F57120B1902200117783 /* AnimationHelper.swift */,
 				3665F59520B8167200117783 /* Extensions.swift */,
 				3665F59720B8169600117783 /* Constants.swift */,
+				3B8EAC1728F7E7E7001BA2D2 /* Actions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				3665F55F20B18FA300117783 /* AppDelegate.swift in Sources */,
 				3665F57220B1902200117783 /* AnimationHelper.swift in Sources */,
 				3665F59620B8167200117783 /* Extensions.swift in Sources */,
+				3B8EAC1828F7E7E7001BA2D2 /* Actions.swift in Sources */,
 				36D1768920D151CB000A7F27 /* PartyTimeViewController.swift in Sources */,
 				36CE7DB120C7203B004137AC /* LoadingViewController.swift in Sources */,
 			);

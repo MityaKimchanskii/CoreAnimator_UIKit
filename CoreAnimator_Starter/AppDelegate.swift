@@ -1,9 +1,8 @@
 //
 //  AppDelegate.swift
-//  CoreAnimator_Starter
+//  CoreAnimator
 //
-//  Created by Harrison Ferrone on 20.05.18.
-//  Copyright © 2018 Paradigm Shift Development, LLC. All rights reserved.
+//  Created by Mitya Kim on 10/12/22.
 //
 
 import UIKit
@@ -14,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
