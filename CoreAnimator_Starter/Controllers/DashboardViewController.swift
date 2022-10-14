@@ -57,6 +57,8 @@ class DashboardViewController: UIViewController {
         createReplicatorLayer()
         createTextLayer()
         createCustomTransaction()
+        
+        segueToNextViewController(segueID: Constants.Segues.partyTimeVC, withDelay: 10.0)
     }
     
     func gradientAnimation() {

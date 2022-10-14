@@ -21,6 +21,7 @@ class AnimationHelper {
     static var shapePath = "path"
     static var textColor = "foregroundColor"
     static var gradientLocations = "locations"
+    static var transform = "transform"
     
     
     // MARK: Common Animations

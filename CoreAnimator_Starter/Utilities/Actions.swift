@@ -3,7 +3,6 @@
 //  CoreAnimator_Starter
 //
 //  Created by Mitya Kim on 10/12/22.
-//  Copyright © 2022 Paradigm Shift Development, LLC. All rights reserved.
 //
 
 import Foundation
